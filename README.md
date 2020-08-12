@@ -1,3 +1,17 @@
+# ENLANCE AL TUTORIAL EN ANGULAR.IO
+
+[Tutorial: Tour of Heroes](https://angular.io/tutorial)
+
+1. [Creacion del proyecto](https://angular.io/tutorial/toh-pt0)
+2. [Creacion del componente Hero](https://angular.io/tutorial/toh-pt1)
+3. [Mostrar lista de heroes](https://angular.io/tutorial/toh-pt2)
+4. [Creacion componente hero-detail](https://angular.io/tutorial/toh-pt3)
+5. [Creacion del hero service - message service](https://angular.io/tutorial/toh-pt4)
+
+___
+
+
+
 # AngularTourOfHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
