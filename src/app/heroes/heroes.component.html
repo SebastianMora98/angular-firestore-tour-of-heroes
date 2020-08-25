@@ -1,7 +1,28 @@
+<form #createForm="ngForm" (ngSubmit)="addHeroesDB(createForm)">
+  <input type="number" name="id" placeholder="id" ngModel />
+  <input type="text" name="name" placeholder="name" ngModel />
+  <input type="submit" value="add hero" />
+</form>
+
+<h3>Update</h3>
+
+<form #updateForm="ngForm" (ngSubmit)="updateHeroesDB(updateForm)">
+  <input type="number" name="id" placeholder="id" ngModel />
+  <input type="text" name="name" placeholder="name" ngModel />
+  <input type="submit" value="Update by id" />
+</form>
+
+<h3>Delete</h3>
+
+<form #deleteForm="ngForm" (ngSubmit)="deleteHeroesDB(deleteForm)">
+  <input type="number" name="id" placeholder="id" ngModel />
+  <input type="submit" value="Delete by id" />
+</form>
+
 <ul class="heroes">
   <li *ngFor="let hero of heroes">
-    <a routerLink="/detail/{{hero.id}}">
-      <span class="badge">{{hero.id}}</span> {{hero.name}}
+    <a routerLink="/detail/{{ hero.id }}">
+      <span class="badge">{{ hero.id }}</span> {{ hero.name }}
     </a>
   </li>
 </ul>

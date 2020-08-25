@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-heroes-c8f40": {
+      "hosting": {
+        "angular-tour-of-heroes": [
+          "angular-heroes-c8f40"
+        ]
+      }
+    }
+  }
+}
