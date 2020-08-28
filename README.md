@@ -24,7 +24,7 @@ npm install
 
 ## Instalacion Angular CLI
 
-Comando para instalar las dependencias.
+Comando para instalar angular cli (command line interface).
 
 ```bash
 npm install -g @angular/cli
