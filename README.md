@@ -12,12 +12,22 @@
 
 ___
 
-## Instalacion
+
+
+## Instalacion de las dependencias
 
 Comando para instalar las dependencias.
 
 ```bash
 npm install
+```
+
+## Instalacion Angular CLI
+
+Comando para instalar las dependencias.
+
+```bash
+npm install -g @angular/cli
 ```
 
 ## Ejecutar en servidor local
